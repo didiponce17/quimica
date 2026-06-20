@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#FF6B6B">
+  <title>Química en Paso a Paso</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="header-titulo">⚛️ Química en Paso a Paso</div>
+    <div id="meta-line" class="header-subtitulo">Cargando contenido desde datos_quimica.json...</div>
+  </header>
+
+  <main class="contenido-principal">
+    <section id="resumen" class="panel is-active" aria-live="polite"></section>
+    <section id="practica" class="panel" aria-live="polite"></section>
+    <section id="tabla" class="panel" aria-live="polite"></section>
+    <section id="quiz" class="panel" aria-live="polite"></section>
+    <section id="progreso" class="panel" aria-live="polite"></section>
+  </main>
+
+  <nav class="nav-tabs" aria-label="Secciones de estudio">
+    <button class="tab is-active nav-tab" data-tab="resumen" aria-selected="true"><span class="nav-tab-emoji">📚</span>Resumen</button>
+    <button class="tab nav-tab" data-tab="practica" aria-selected="false"><span class="nav-tab-emoji">🧪</span>Práctica</button>
+    <button class="tab nav-tab" data-tab="tabla" aria-selected="false"><span class="nav-tab-emoji">🧾</span>Tabla</button>
+    <button class="tab nav-tab" data-tab="quiz" aria-selected="false"><span class="nav-tab-emoji">📝</span>Quiz</button>
+    <button class="tab nav-tab" data-tab="progreso" aria-selected="false"><span class="nav-tab-emoji">📊</span>Progreso</button>
+  </nav>
+
+  <template id="empty-state">
+    <article class="card empty">
+      <h2>Falta contenido en el JSON</h2>
+      <p>Esta sección depende de <strong>datos_quimica.json</strong>. Completa ese archivo con la salida de la Fase 1 para verla aquí.</p>
+    </article>
+  </template>
+</body>
+</html>

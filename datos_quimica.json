@@ -1,0 +1,1356 @@
+{
+  "asignatura": "Química",
+  "metadata": {
+    "version": "fase1-extraido-2026-06-19",
+    "estudiante": "estudiante secundaria",
+    "nivel": "Undécimo",
+    "evaluacion": "II Prueba I Semestre 2026"
+  },
+  "indice_temas": [
+    {
+      "tema": "Polaridad de las moléculas",
+      "subtemas": [
+        "Momento dipolar",
+        "Flecha de dipolo",
+        "Cargas parciales",
+        "Como decidir polar o no polar"
+      ]
+    },
+    {
+      "tema": "Fuerzas interiónicas, intramoleculares e intermoleculares",
+      "subtemas": [
+        "Fuerzas interiónicas",
+        "Fuerzas intramoleculares",
+        "Fuerzas intermoleculares",
+        "Dipolo-dipolo",
+        "Dispersión (London)",
+        "Puentes de hidrógeno"
+      ]
+    },
+    {
+      "tema": "Disoluciones",
+      "subtemas": [
+        "Tipos",
+        "Características",
+        "Propiedades coligativas",
+        "Cálculos de concentración"
+      ]
+    }
+  ],
+  "resumen_temas": [
+    {
+      "titulo": "Polaridad de las moléculas",
+      "explicacion_simple": "La polaridad aparece cuando los electrones se concentran más en un lado de la molécula. Eso deja una parte con carga parcial negativa y otra con carga parcial positiva.",
+      "puntos_clave": [
+        "La polaridad se relaciona con el momento dipolar.",
+        "La flecha de dipolo apunta hacia el átomo más electronegativo.",
+        "Se necesita separación de polos para que la molécula sea polar.",
+        "Importa la electronegatividad de cada átomo.",
+        "Importa la geometría molecular.",
+        "Importan los elementos que componen la molécula."
+      ],
+      "errores_comunes": [
+        "Confundir la punta de flecha con el lado positivo.",
+        "Decidir polaridad solo por un enlace y no por toda la estructura.",
+        "Ignorar la geometría de la molécula."
+      ],
+      "palabras_clave": [
+        {
+          "termino": "Momento dipolar",
+          "definicion": "Magnitud física asociada a la separación de cargas en una molécula."
+        },
+        {
+          "termino": "Electronegatividad",
+          "definicion": "Capacidad de un átomo para atraer electrones en un enlace."
+        },
+        {
+          "termino": "Carga parcial",
+          "definicion": "Distribución desigual de electrones que genera zonas delta+ y delta-."
+        }
+      ]
+    },
+    {
+      "titulo": "Fuerzas entre partículas",
+      "explicacion_simple": "Las fuerzas interiónicas son muy intensas entre iones. Las intramoleculares mantienen unidos los átomos dentro de una molécula y las intermoleculares actúan entre moléculas.",
+      "puntos_clave": [
+        "Interiónicas: entre iones, generalmente las más intensas.",
+        "Intramoleculares: dentro de la molécula, por enlaces.",
+        "Intermoleculares: entre moléculas, más débiles.",
+        "Fuerzas dipolares: entre moléculas polares.",
+        "Dispersión: atraccion transitoria en moléculas no polares.",
+        "Puente de hidrógeno: con H unido a F, O o N."
+      ],
+      "errores_comunes": [
+        "Llamar intermoleculares a enlaces dentro de una misma molécula.",
+        "Pensar que toda fuerza entre sustancias tiene la misma intensidad.",
+        "Confundir dispersión con puente de hidrógeno."
+      ],
+      "palabras_clave": [
+        {
+          "termino": "Interionica",
+          "definicion": "Fuerza entre iones con carga completa."
+        },
+        {
+          "termino": "Intermolecular",
+          "definicion": "Atraccion o repulsion entre moléculas."
+        },
+        {
+          "termino": "Van der Waals",
+          "definicion": "Nombre general de fuerzas intermoleculares débiles."
+        }
+      ]
+    },
+    {
+      "titulo": "Disoluciones y concentración",
+      "explicacion_simple": "El temario del examen incluye disoluciones, propiedades coligativas y cálculos de concentración. En las fuentes visibles de este workspace no aparecen desarrollos numéricos completos para esos cálculos.",
+      "puntos_clave": [
+        "Tema confirmado en temas.jpeg.",
+        "Debe estudiarse junto con apuntes de clase y libro.",
+        "Se requiere practica adicional para cálculos.",
+        "No hay suficientes ejemplos numéricos visibles para extraer pasos exactos."
+      ],
+      "errores_comunes": [
+        "Intentar memorizar fórmulas sin contexto.",
+        "Resolver cálculos sin revisar unidades.",
+        "No verificar datos del enunciado."
+      ],
+      "palabras_clave": [
+        {
+          "termino": "Disolución",
+          "definicion": "Mezcla homogénea de soluto y solvente (tema listado en el documento de temas)."
+        },
+        {
+          "termino": "Propiedad coligativa",
+          "definicion": "Propiedad que depende de la cantidad de partículas disueltas (tema listado)."
+        }
+      ]
+    }
+  ],
+  "conexiones_entre_temas": [
+    {
+      "de": "Polaridad",
+      "a": "Fuerzas intermoleculares",
+      "explicacion": "La polaridad ayuda a decidir si predominan fuerzas dipolares, puentes de hidrógeno o dispersión."
+    },
+    {
+      "de": "Fuerzas intermoleculares",
+      "a": "Disoluciones",
+      "explicacion": "La solubilidad entre sustancias se analiza con el tipo de polaridad y la fuerza de interacción entre ellas."
+    }
+  ],
+  "mapas_conceptuales": [
+    {
+      "titulo": "Mapa general de los temas",
+      "codigo_mermaid": "graph TD\nA[Química - II Prueba] --> B[Polaridad]\nA --> C[Fuerzas]\nA --> D[Disoluciones]\nB --> B1[Flecha dipolo]\nB --> B2[Electronegatividad]\nB --> B3[Geometría]\nC --> C1[Interiónicas]\nC --> C2[Intramoleculares]\nC --> C3[Intermoleculares]\nC3 --> C31[Dipolo-dipolo]\nC3 --> C32[Dispersión]\nC3 --> C33[Puentes de H]"
+    },
+    {
+      "titulo": "Ruta para decidir polaridad",
+      "codigo_mermaid": "flowchart TD\nI[Tomar molécula] --> J[Revisar electronegatividad]\nJ --> K[Asignar cargas parciales]\nK --> L[Observar geometría]\nL --> M{Se cancelan dipolos?}\nM -->|Si| N[No polar]\nM -->|No| O[Polar]"
+    }
+  ],
+  "guia_rapida": [
+    {
+      "titulo": "Polaridad, fácil de entender",
+      "items": [
+        "Busca el átomo que jala más electrones.",
+        "La flecha apunta hacia ese lado.",
+        "Si la molécula queda inclinada hacia un lado, es polar. Si se equilibra, es no polar."
+      ]
+    },
+    {
+      "titulo": "Fuerzas, en palabras simples",
+      "items": [
+        "Iones con iones: fuerza interionica.",
+        "Moléculas polares con moléculas polares: dipolo-dipolo.",
+        "Moléculas no polares: dispersión.",
+        "Si hay H con F, O o N: puente de hidrógeno."
+      ]
+    },
+    {
+      "titulo": "Lo que si puedes usar",
+      "items": [
+        "Usa la tabla periódica para comparar elementos.",
+        "Fíjate si los átomos son iguales o diferentes.",
+        "Si un compuesto tiene metales y no metales, piensa en iónico.",
+        "Si dos sustancias no tienen la misma polaridad, normalmente no se mezclan bien."
+      ]
+    },
+    {
+      "titulo": "🔬 Tabla Periodica para Polaridad",
+      "items": [
+        "PASO 1: Busca los dos átomos en la tabla periódica. Mira en que columna esta cada uno.",
+        "PASO 2: Compara sus posiciones. Si estan lejos horizontalmente o verticalmente, hay gran diferencia en electronegatividad.",
+        "PASO 3: Cuanto más a la derecha y arriba, más electronegativo. El átomo a la derecha jala más electrones.",
+        "PASO 4: Si los átomos son IGUALES (ej: O=O, Cl-Cl), no hay diferencia, la flecha no tiene sentido, es NO POLAR.",
+        "PASO 5: Si son DIFERENTES (ej: H-Cl), la flecha apunta hacia el más a la derecha o arriba, es POLAR."
+      ]
+    },
+    {
+      "titulo": "❓ ¿Iónico, Polar o No Polar? - 3 Preguntas",
+      "items": [
+        "PREGUNTA 1: ¿Hay un metal y un no metal en el compuesto? SI -> Es IÓNICO (ej: NaCl, KBr). NO -> Continúa.",
+        "PREGUNTA 2: ¿Los átomos no metalicos son IGUALES? (ej: O2, N2, Cl2) SI -> Es NO POLAR. NO -> Continúa.",
+        "PREGUNTA 3: ¿Tiene geometría asimétrica o los dipolos NO se cancelan? SI -> Es POLAR (ej: H2O, HCl). NO -> Es NO POLAR (ej: CO2, CH4)."
+      ]
+    }
+  ],
+  "tabla_periodica": {
+    "guia_uso": [
+      "Primero identifica si los elementos son metal o no metal.",
+      "Compara electronegatividad (EN): mientras más alta, más jala electrones.",
+      "Si hay metal + no metal, normalmente piensa en comportamiento iónico.",
+      "Si ambos son no metales, revisa diferencia de EN para ver polarización del enlace y luego la geometría para decidir polaridad molecular (polar o no polar)."
+    ],
+    "elementos": [
+      {
+        "nombre": "Hidrógeno",
+        "simbolo": "H",
+        "numero_atomico": 1,
+        "grupo": 1,
+        "periodo": 1,
+        "tipo": "No metal",
+        "electronegatividad": 2.2,
+        "valencias": [
+          "+1",
+          "-1"
+        ],
+        "tip_polaridad": "Forma enlaces polares con F, O, N y Cl."
+      },
+      {
+        "nombre": "Litio",
+        "simbolo": "Li",
+        "numero_atomico": 3,
+        "grupo": 1,
+        "periodo": 2,
+        "tipo": "Metal alcalino",
+        "electronegatividad": 0.98,
+        "valencias": [
+          "+1"
+        ],
+        "tip_polaridad": "Metal; con no metales suele formar compuestos iónicos."
+      },
+      {
+        "nombre": "Sodio",
+        "simbolo": "Na",
+        "numero_atomico": 11,
+        "grupo": 1,
+        "periodo": 3,
+        "tipo": "Metal alcalino",
+        "electronegatividad": 0.93,
+        "valencias": [
+          "+1"
+        ],
+        "tip_polaridad": "Muy electropositivo; con Cl forma NaCl (iónico)."
+      },
+      {
+        "nombre": "Potasio",
+        "simbolo": "K",
+        "numero_atomico": 19,
+        "grupo": 1,
+        "periodo": 4,
+        "tipo": "Metal alcalino",
+        "electronegatividad": 0.82,
+        "valencias": [
+          "+1"
+        ],
+        "tip_polaridad": "Similar a Na; con halógenos forma sales iónicas."
+      },
+      {
+        "nombre": "Magnesio",
+        "simbolo": "Mg",
+        "numero_atomico": 12,
+        "grupo": 2,
+        "periodo": 3,
+        "tipo": "Metal alcalinoterreo",
+        "electronegatividad": 1.31,
+        "valencias": [
+          "+2"
+        ],
+        "tip_polaridad": "Metal; con no metales suele formar compuestos iónicos."
+      },
+      {
+        "nombre": "Calcio",
+        "simbolo": "Ca",
+        "numero_atomico": 20,
+        "grupo": 2,
+        "periodo": 4,
+        "tipo": "Metal alcalinoterreo",
+        "electronegatividad": 1,
+        "valencias": [
+          "+2"
+        ],
+        "tip_polaridad": "Electropositivo; facilita interacciones iónicas."
+      },
+      {
+        "nombre": "Aluminio",
+        "simbolo": "Al",
+        "numero_atomico": 13,
+        "grupo": 13,
+        "periodo": 3,
+        "tipo": "Metal de transicion",
+        "electronegatividad": 1.61,
+        "valencias": [
+          "+3"
+        ],
+        "tip_polaridad": "Con no metales genera enlaces muy polares o iónicos."
+      },
+      {
+        "nombre": "Carbono",
+        "simbolo": "C",
+        "numero_atomico": 6,
+        "grupo": 14,
+        "periodo": 2,
+        "tipo": "No metal",
+        "electronegatividad": 2.55,
+        "valencias": [
+          "+4",
+          "-4"
+        ],
+        "tip_polaridad": "Base de compuestos organicos; la geometría decide si se cancela dipolo."
+      },
+      {
+        "nombre": "Silicio",
+        "simbolo": "Si",
+        "numero_atomico": 14,
+        "grupo": 14,
+        "periodo": 3,
+        "tipo": "Metaloide",
+        "electronegatividad": 1.9,
+        "valencias": [
+          "+4"
+        ],
+        "tip_polaridad": "Intermedio; analiza contexto del compuesto."
+      },
+      {
+        "nombre": "Nitrogeno",
+        "simbolo": "N",
+        "numero_atomico": 7,
+        "grupo": 15,
+        "periodo": 2,
+        "tipo": "No metal",
+        "electronegatividad": 3.04,
+        "valencias": [
+          "-3",
+          "+3",
+          "+5"
+        ],
+        "tip_polaridad": "Alta EN; N-H puede participar en puente de hidrógeno."
+      },
+      {
+        "nombre": "Fosforo",
+        "simbolo": "P",
+        "numero_atomico": 15,
+        "grupo": 15,
+        "periodo": 3,
+        "tipo": "No metal",
+        "electronegatividad": 2.19,
+        "valencias": [
+          "-3",
+          "+3",
+          "+5"
+        ],
+        "tip_polaridad": "No metal de EN media; revisar geometría molecular."
+      },
+      {
+        "nombre": "Oxigeno",
+        "simbolo": "O",
+        "numero_atomico": 8,
+        "grupo": 16,
+        "periodo": 2,
+        "tipo": "No metal",
+        "electronegatividad": 3.44,
+        "valencias": [
+          "-2"
+        ],
+        "tip_polaridad": "Muy electronegativo; suele atraer fuerte los electrones."
+      },
+      {
+        "nombre": "Azufre",
+        "simbolo": "S",
+        "numero_atomico": 16,
+        "grupo": 16,
+        "periodo": 3,
+        "tipo": "No metal",
+        "electronegatividad": 2.58,
+        "valencias": [
+          "-2",
+          "+4",
+          "+6"
+        ],
+        "tip_polaridad": "Puede generar enlaces polares; revisa simetría en moléculas."
+      },
+      {
+        "nombre": "Fluor",
+        "simbolo": "F",
+        "numero_atomico": 9,
+        "grupo": 17,
+        "periodo": 2,
+        "tipo": "Halogeno",
+        "electronegatividad": 3.98,
+        "valencias": [
+          "-1"
+        ],
+        "tip_polaridad": "Elemento más electronegativo; la flecha de dipolo apunta hacia F."
+      },
+      {
+        "nombre": "Cloro",
+        "simbolo": "Cl",
+        "numero_atomico": 17,
+        "grupo": 17,
+        "periodo": 3,
+        "tipo": "Halogeno",
+        "electronegatividad": 3.16,
+        "valencias": [
+          "-1",
+          "+1",
+          "+5",
+          "+7"
+        ],
+        "tip_polaridad": "Alta EN; en HCl el lado negativo esta en Cl."
+      },
+      {
+        "nombre": "Bromo",
+        "simbolo": "Br",
+        "numero_atomico": 35,
+        "grupo": 17,
+        "periodo": 4,
+        "tipo": "Halogeno",
+        "electronegatividad": 2.96,
+        "valencias": [
+          "-1",
+          "+1",
+          "+5"
+        ],
+        "tip_polaridad": "Halogeno electronegativo; suele polarizar enlaces."
+      },
+      {
+        "nombre": "Yodo",
+        "simbolo": "I",
+        "numero_atomico": 53,
+        "grupo": 17,
+        "periodo": 5,
+        "tipo": "Halogeno",
+        "electronegatividad": 2.66,
+        "valencias": [
+          "-1",
+          "+1",
+          "+5",
+          "+7"
+        ],
+        "tip_polaridad": "Menos EN que F/Cl pero sigue siendo no metal electronegativo."
+      },
+      {
+        "nombre": "Helio",
+        "simbolo": "He",
+        "numero_atomico": 2,
+        "grupo": 18,
+        "periodo": 1,
+        "tipo": "Gas noble",
+        "electronegatividad": "-",
+        "valencias": [
+          "0"
+        ],
+        "tip_polaridad": "Gas noble, prácticamente inerte."
+      },
+      {
+        "nombre": "Neon",
+        "simbolo": "Ne",
+        "numero_atomico": 10,
+        "grupo": 18,
+        "periodo": 2,
+        "tipo": "Gas noble",
+        "electronegatividad": "-",
+        "valencias": [
+          "0"
+        ],
+        "tip_polaridad": "Gas noble, no suele formar compuestos."
+      },
+      {
+        "nombre": "Argon",
+        "simbolo": "Ar",
+        "numero_atomico": 18,
+        "grupo": 18,
+        "periodo": 3,
+        "tipo": "Gas noble",
+        "electronegatividad": "-",
+        "valencias": [
+          "0"
+        ],
+        "tip_polaridad": "Gas noble; para ejercicios de polaridad rara vez participa."
+      }
+    ]
+  },
+  "practica": {
+    "polaridad": [
+      {
+        "id": 1,
+        "molecula": "NaCl",
+        "pregunta": "NaCl es polar o no polar?",
+        "es_polar": true,
+        "flecha_visible": "Na → Cl",
+        "pasos": [
+          "NaCl se clasifica como Polar.",
+          "Se muestra separación de cargas entre Na y Cl.",
+          "Conclusión: NaCl es Polar."
+        ],
+        "explicacion_simple": "NaCl tiene cargas bien marcadas, por eso se clasifica como polar."
+      },
+      {
+        "id": 2,
+        "molecula": "KCl",
+        "pregunta": "KCl es polar o no polar?",
+        "es_polar": true,
+        "flecha_visible": "K → Cl",
+        "pasos": [
+          "K y Cl se muestran con separación de carga.",
+          "Se etiqueta explícitamente como Polar.",
+          "Respuesta final: KCl es Polar."
+        ],
+        "explicacion_simple": "KCl muestra un extremo más positivo y otro más negativo, por eso es polar."
+      },
+      {
+        "id": 3,
+        "molecula": "O₂",
+        "pregunta": "O₂ es polar o no polar?",
+        "es_polar": false,
+        "flecha_visible": "O = O",
+        "pasos": [
+          "Se dibuja O=O con átomos iguales.",
+          "No se marca polo neto en un lado.",
+          "Resultado: O₂ es No Polar."
+        ],
+        "explicacion_simple": "Como ambos átomos son iguales, O₂ no tiene un lado más cargado: es no polar."
+      },
+      {
+        "id": 4,
+        "molecula": "CO",
+        "pregunta": "CO es polar o no polar?",
+        "es_polar": true,
+        "flecha_visible": "C → O",
+        "pasos": [
+          "CO esta marcado como Polar.",
+          "Se representa un desplazamiento de electrones hacia un lado.",
+          "Conclusión: CO es Polar."
+        ],
+        "explicacion_simple": "CO muestra desigualdad de carga, por eso queda polar."
+      },
+      {
+        "id": 5,
+        "molecula": "CCl₄",
+        "pregunta": "CCl₄ es polar o no polar?",
+        "es_polar": false,
+        "flecha_visible": "Cl ← C → Cl",
+        "pasos": [
+          "CCl₄ se dibuja con estructura simetrica.",
+          "Se etiqueta explícitamente como No Polar.",
+          "Respuesta final: CCl₄ es No Polar."
+        ],
+        "explicacion_simple": "CCl₄ tiene simetría que cancela los dipolos, por eso es no polar."
+      },
+      {
+        "id": 6,
+        "molecula": "H₂O",
+        "pregunta": "H₂O es polar o no polar?",
+        "es_polar": true,
+        "flecha_visible": "H → O",
+        "pasos": [
+          "Se dibuja H₂O con forma angular.",
+          "Se etiqueta como Polar.",
+          "Conclusión: H₂O es Polar."
+        ],
+        "explicacion_simple": "H₂O se etiqueta como polar en ejercicios de solubilidad."
+      },
+      {
+        "id": 7,
+        "molecula": "N₂",
+        "pregunta": "N₂ es polar o no polar?",
+        "es_polar": false,
+        "flecha_visible": "N = N",
+        "pasos": [
+          "Se dibuja N=N entre átomos iguales.",
+          "Se clasifica como No Polar.",
+          "Resultado: N₂ es No Polar."
+        ],
+        "explicacion_simple": "N₂ no muestra desequilibrio neto de carga: es no polar."
+      },
+      {
+        "id": 8,
+        "molecula": "CO₂",
+        "pregunta": "CO₂ es polar o no polar?",
+        "es_polar": false,
+        "flecha_visible": "O → C ← O",
+        "pasos": [
+          "El inciso marca CO₂ como No Polar.",
+          "Se usa esa clasificacion para decidir no solubilidad con H₂O.",
+          "Resultado: CO₂ es No Polar."
+        ],
+        "explicacion_simple": "CO₂ se trabaja como no polar por su simetría."
+      },
+      {
+        "id": 9,
+        "molecula": "CH₃Cl",
+        "pregunta": "CH₃Cl es polar o no polar?",
+        "es_polar": true,
+        "flecha_visible": "CH3 → Cl",
+        "pasos": [
+          "Se etiqueta como Polar.",
+          "Se compara con otro para evaluar solubilidad.",
+          "Resultado: CH₃Cl es Polar."
+        ],
+        "explicacion_simple": "En tu desarrollo, CH3Cl esta marcado como polar y se usa así en la comparacion."
+      },
+      {
+        "id": 10,
+        "molecula": "CH₃CN",
+        "pregunta": "CH₃CN es polar o no polar?",
+        "es_polar": true,
+        "flecha_visible": "CH3 → CN",
+        "pasos": [
+          "Se etiqueta como Polar.",
+          "Se compara contra CCl4 en el mismo ejercicio.",
+          "Resultado: CH3CN es Polar."
+        ],
+        "explicacion_simple": "CH3CN se trabaja como polar en ejercicios de solubilidad."
+      },
+      {
+        "id": 11,
+        "molecula": "HCl",
+        "pregunta": "HCl es polar o no polar?",
+        "es_polar": true,
+        "flecha_visible": "H → Cl",
+        "pasos": [
+          "Compara electronegatividad entre H y Cl.",
+          "El enlace se polariza hacia Cl.",
+          "Como es una molécula diatomica con desigualdad de carga, queda polar."
+        ],
+        "explicacion_simple": "HCl tiene un lado más negativo (Cl) y otro más positivo (H), por eso es polar."
+      },
+      {
+        "id": 12,
+        "molecula": "Cl2",
+        "pregunta": "Cl₂ es polar o no polar?",
+        "es_polar": false,
+        "flecha_visible": "Cl = Cl",
+        "pasos": [
+          "Los dos átomos son iguales.",
+          "No hay diferencia de electronegatividad.",
+          "No se forma polo neto: no polar."
+        ],
+        "explicacion_simple": "Si ambos átomos son iguales, no hay lado más cargado: es no polar."
+      },
+      {
+        "id": 13,
+        "molecula": "NH3",
+        "pregunta": "NH₃ es polar o no polar?",
+        "es_polar": true,
+        "flecha_visible": "H → N ← H",
+        "pasos": [
+          "N es más electronegativo que H.",
+          "Los enlaces N-H son polares.",
+          "La geometría no cancela los dipolos: molécula polar."
+        ],
+        "explicacion_simple": "En NH3 los dipolos no se cancelan, entonces queda polar."
+      },
+      {
+        "id": 14,
+        "molecula": "CH4",
+        "pregunta": "CH₄ es polar o no polar?",
+        "es_polar": false,
+        "flecha_visible": "H → C ← H",
+        "pasos": [
+          "Revisa enlaces C-H con baja diferencia de electronegatividad.",
+          "La molécula es simetrica.",
+          "Los dipolos se compensan: no polar."
+        ],
+        "explicacion_simple": "CH4 se estudia como no polar por su simetría."
+      },
+      {
+        "id": 15,
+        "molecula": "SO2",
+        "pregunta": "SO₂ es polar o no polar?",
+        "es_polar": true,
+        "flecha_visible": "O → S ← O",
+        "pasos": [
+          "S y O tienen diferencia de electronegatividad.",
+          "La geometría angular evita cancelacion total.",
+          "Se considera polar en practica de aula."
+        ],
+        "explicacion_simple": "SO2 se trabaja como polar porque su forma no cancela los dipolos."
+      }
+    ],
+    "flecha_dipolo": [
+      {
+        "id": 1,
+        "representacion": "H -> F, con F como region rica en electron",
+        "pregunta": "Hacia donde apunta la flecha de dipolo en el ejemplo?",
+        "fuente": "1 pagina cuaderno.jpeg - diagrama central",
+        "pasos": [
+          "Identifica el átomo más electronegativo (F).",
+          "Observa que la region cercana a F se marca como rica en electrones (delta-).",
+          "La flecha apunta hacia F."
+        ],
+        "explicacion_simple": "La flecha apunta al lado que jala más electrones, en este caso el fluor."
+      },
+      {
+        "id": 2,
+        "representacion": "Extremo con cruz o delta+ hacia átomo menos electronegativo",
+        "pregunta": "Qué indica el extremo positivo de la flecha?",
+        "fuente": "1 pagina cuaderno.jpeg - explicación de region pobre/rica",
+        "pasos": [
+          "Ubica la zona pobre en electrones (delta+).",
+          "Esa zona corresponde al átomo menos electronegativo.",
+          "La punta de la flecha va al lado contrario, hacia la zona delta-."
+        ],
+        "explicacion_simple": "El lado positivo es el que se queda con menos electrones."
+      }
+    ],
+    "pares_sustancias": [
+      {
+        "id": 1,
+        "pareja": "H2O + KI",
+        "tipo": "Ejercicio de clase",
+        "pregunta": "Qué tipo de interacción predomina entre H2O y KI?",
+        "flecha_visible": "H2O ↔ KI",
+        "opciones": [
+          "Ion-dipolo",
+          "Dipolo-dipolo",
+          "Dispersión",
+          "Puente de hidrógeno"
+        ],
+        "respuesta_index": 0,
+        "pasos": [
+          "H2O se trabaja como polar.",
+          "KI se toma como iónico.",
+          "Cuando un ion interactua con una molécula polar, la fuerza es ion-dipolo."
+        ],
+        "resultado": "Ion-dipolo",
+        "explicacion_simple": "Uno es iónico y el otro polar, así que se atraen por ion-dipolo."
+      },
+      {
+        "id": 2,
+        "pareja": "N2 + O2",
+        "tipo": "Ejercicio de clase",
+        "pregunta": "Qué interacción predomina entre N2 y O2?",
+        "flecha_visible": "N2 ↔ O2",
+        "opciones": [
+          "Ion-dipolo",
+          "Dipolo-dipolo",
+          "Dispersión",
+          "Puente de hidrógeno"
+        ],
+        "respuesta_index": 2,
+        "pasos": [
+          "N2 y O2 se trabajan como no polares.",
+          "Entre moléculas no polares predominan fuerzas de dispersión.",
+          "Resultado: dispersión."
+        ],
+        "resultado": "Dispersión",
+        "explicacion_simple": "Las dos son no polares, entonces la fuerza principal es dispersión."
+      },
+      {
+        "id": 3,
+        "pareja": "CO2 + H2O",
+        "tipo": "Ejercicio de clase",
+        "pregunta": "Qué pasa entre CO2 y H2O?",
+        "flecha_visible": "CO2 ↔ H2O",
+        "opciones": [
+          "Son solubles",
+          "No son solubles",
+          "Ion-dipolo",
+          "Puente de hidrógeno"
+        ],
+        "respuesta_index": 1,
+        "pasos": [
+          "CO₂ se clasifica como no polar.",
+          "H₂O se clasifica como polar.",
+          "Con polaridades diferentes, no son solubles y la fuerza principal es dispersión."
+        ],
+        "resultado": "No son solubles; fuerza anotada: dispersión",
+        "explicacion_simple": "Polaridades opuestas: uno polar y otro no polar, por eso no se disuelven bien."
+      },
+      {
+        "id": 4,
+        "pareja": "CH3Cl + SO2",
+        "tipo": "Ejercicio de clase",
+        "pregunta": "Qué se concluye para CH3Cl y SO2?",
+        "flecha_visible": "CH3Cl ↔ SO2",
+        "opciones": [
+          "Son solubles",
+          "No son solubles",
+          "Dipolo-dipolo",
+          "Metalica"
+        ],
+        "respuesta_index": 1,
+        "pasos": [
+          "CH₃Cl se clasifica como polar.",
+          "SO₂ aparece como no polar.",
+          "Con polaridades diferentes, no son solubles."
+        ],
+        "resultado": "No son solubles",
+        "explicacion_simple": "Segun el ejercicio, tienen comportamiento distinto y no se mezclan bien."
+      },
+      {
+        "id": 5,
+        "pareja": "CH3CN + CCl4",
+        "tipo": "Ejercicio de clase",
+        "pregunta": "Qué pasa entre CH3CN y CCl4?",
+        "flecha_visible": "CH3CN ↔ CCl4",
+        "opciones": [
+          "Son solubles",
+          "No son solubles",
+          "Ion-dipolo",
+          "Puente de hidrógeno"
+        ],
+        "respuesta_index": 1,
+        "pasos": [
+          "CH₃CN se clasifica como polar.",
+          "CCl₄ se clasifica como no polar.",
+          "El ejercicio concluye que no son solubles."
+        ],
+        "resultado": "No son solubles",
+        "explicacion_simple": "Uno es polar y el otro no polar, por eso no se mezclan facilmente."
+      },
+      {
+        "id": 6,
+        "pareja": "HCl + H2O",
+        "tipo": "Ejercicio de practica",
+        "pregunta": "Si HCl se compara con H2O, que interacción es la más razonable?",
+        "flecha_visible": "HCl ↔ H2O",
+        "opciones": [
+          "Ion-dipolo",
+          "Dipolo-dipolo",
+          "Dispersión",
+          "Metalica"
+        ],
+        "respuesta_index": 1,
+        "pasos": [
+          "HCl es una molécula polar.",
+          "H2O tambien es polar.",
+          "Entre moléculas polares la fuerza principal es dipolo-dipolo."
+        ],
+        "resultado": "Dipolo-dipolo",
+        "explicacion_simple": "Las dos son polares, así que se atraen como moléculas polares."
+      },
+      {
+        "id": 7,
+        "pareja": "NH3 + H2O",
+        "tipo": "Ejercicio de practica",
+        "pregunta": "Si NH3 se compara con H2O, que fuerza puede aparecer?",
+        "flecha_visible": "NH3 ↔ H2O",
+        "opciones": [
+          "Puente de hidrógeno",
+          "Ion-dipolo",
+          "Dispersión",
+          "Metalica"
+        ],
+        "respuesta_index": 0,
+        "pasos": [
+          "NH3 es polar.",
+          "H2O es polar.",
+          "Como tienen H unido a átomos electronegativos, en clase se puede reconocer puente de hidrógeno."
+        ],
+        "resultado": "Puente de hidrógeno",
+        "explicacion_simple": "Las dos pueden formar puentes de hidrógeno, por eso se atraen fuerte."
+      },
+      {
+        "id": 8,
+        "pareja": "NaCl + H2O",
+        "tipo": "Ejercicio de practica",
+        "pregunta": "Si NaCl se compara con H2O, que tipo de fuerza predomina?",
+        "flecha_visible": "NaCl ↔ H2O",
+        "opciones": [
+          "Ion-dipolo",
+          "Dipolo-dipolo",
+          "Dispersión",
+          "Puente de hidrógeno"
+        ],
+        "respuesta_index": 0,
+        "pasos": [
+          "NaCl es iónico.",
+          "H2O es polar.",
+          "Ion con molécula polar: ion-dipolo."
+        ],
+        "resultado": "Ion-dipolo",
+        "explicacion_simple": "Un ion y una molécula polar se atraen por ion-dipolo."
+      },
+      {
+        "id": 9,
+        "pareja": "CH4 + O2",
+        "tipo": "Ejercicio de practica",
+        "pregunta": "Si CH4 se compara con O2, que fuerza predomina?",
+        "flecha_visible": "CH4 ↔ O2",
+        "opciones": [
+          "Ion-dipolo",
+          "Dipolo-dipolo",
+          "Dispersión",
+          "Puente de hidrógeno"
+        ],
+        "respuesta_index": 2,
+        "pasos": [
+          "CH4 se estudia como no polar.",
+          "O2 tambien es no polar.",
+          "Entre no polares predomina dispersión."
+        ],
+        "resultado": "Dispersión",
+        "explicacion_simple": "Las dos son no polares, por eso la fuerza principal es dispersión."
+      }
+    ],
+    "calculos": [
+      {
+        "id": 1,
+        "pregunta": "Cálculo de concentración (tema del examen)",
+        "pasos": [
+          "En las fuentes visibles no aparece un ejercicio numérico completo resuelto de concentración.",
+          "Revisa los ejercicios del libro/carpeta que no estan digitalmente legibles en este workspace.",
+          "Cuando compartas un ejemplo numérico, se puede agregar aquí paso a paso exacto."
+        ],
+        "resultado": "Pendiente por falta de ejemplo numérico legible en las fuentes proporcionadas.",
+        "explicacion_simple": "El tema si entra al examen, pero en estos archivos no se ve un problema de concentración completo para copiarlo literal."
+      },
+      {
+        "id": 2,
+        "pregunta": "Porcentaje masa/masa de una disolución con 10 g de NaCl y 90 g de agua.",
+        "pasos": [
+          "Masa total de disolución = 10 g + 90 g = 100 g.",
+          "% m/m = (masa de soluto / masa de disolución) x 100.",
+          "% m/m = (10 / 100) x 100 = 10%."
+        ],
+        "resultado": "10% m/m",
+        "explicacion_simple": "De cada 100 g de mezcla, 10 g son sal, por eso es 10%."
+      },
+      {
+        "id": 3,
+        "pregunta": "Porcentaje masa/volumen si hay 5 g de glucosa en 100 mL de solucion.",
+        "pasos": [
+          "% m/v = (gramos de soluto / mL de solucion) x 100.",
+          "Sustituye: (5 / 100) x 100.",
+          "Resultado: 5% m/v."
+        ],
+        "resultado": "5% m/v",
+        "explicacion_simple": "Hay 5 g por cada 100 mL de solucion, así que es 5%."
+      },
+      {
+        "id": 4,
+        "pregunta": "Porcentaje volumen/volumen si se mezclan 20 mL de alcohol en 100 mL de solucion.",
+        "pasos": [
+          "% v/v = (volumen de soluto / volumen de solucion) x 100.",
+          "Sustituye: (20 / 100) x 100.",
+          "Resultado: 20% v/v."
+        ],
+        "resultado": "20% v/v",
+        "explicacion_simple": "Si de 100 mL, 20 mL son alcohol, la concentración es 20%."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "pregunta": "Cuál ejemplo esta marcado como no polar?",
+      "opciones": [
+        "NaCl",
+        "KCl",
+        "O₂",
+        "CO"
+      ],
+      "respuesta_index": 2,
+      "explicacion": "O₂ tiene átomos identicos, por eso aparece como No Polar.",
+      "pasos": [
+        "Paso 1: Observa los ejemplos de polaridad.",
+        "Paso 2: NaCl y KCl tienen átomos diferentes, por eso son polares.",
+        "Paso 3: O₂ tiene dos átomos identicos, O=O, sin separación de carga.",
+        "Paso 4: O₂ se clasifica como No Polar."
+      ]
+    },
+    {
+      "id": 2,
+      "pregunta": "En el ejemplo H-F, la flecha de dipolo apunta hacia:",
+      "opciones": [
+        "H",
+        "F",
+        "Ambos",
+        "Ninguno"
+      ],
+      "respuesta_index": 1,
+      "explicacion": "El fluor se marca como la region rica en electrones.",
+      "pasos": [
+        "Paso 1: La flecha de dipolo apunta hacia el átomo más electronegativo.",
+        "Paso 2: En H-F, el fluor tiene mayor electronegatividad que el hidrógeno.",
+        "Paso 3: El fluor jala más electrones, quedando más negativo.",
+        "Paso 4: La punta de la flecha → apunta hacia el lado negativo, o sea F."
+      ]
+    },
+    {
+      "id": 3,
+      "pregunta": "Qué fuerzas se describen como más intensas en los apuntes/libro?",
+      "opciones": [
+        "Dispersión",
+        "Interiónicas",
+        "Dipolares",
+        "Puentes de H"
+      ],
+      "respuesta_index": 1,
+      "explicacion": "Se indica que las fuerzas interiónicas son de las más intensas."
+    },
+    {
+      "id": 4,
+      "pregunta": "N₂ y O₂ se clasifican como:",
+      "opciones": [
+        "Polares",
+        "No polares",
+        "Iones",
+        "Puentes de H"
+      ],
+      "respuesta_index": 1,
+      "explicacion": "Ambos se clasifican como No Polar."
+    },
+    {
+      "id": 5,
+      "pregunta": "La fuerza entre H₂O y KI es:",
+      "opciones": [
+        "Dispersión",
+        "Dipolo-dipolo",
+        "Ion dipolo",
+        "Metalica"
+      ],
+      "respuesta_index": 2,
+      "explicacion": "Se anota explícitamente ion dipolo."
+    },
+    {
+      "id": 6,
+      "pregunta": "Cuál molécula es no polar?",
+      "opciones": [
+        "HCl",
+        "NH3",
+        "CH4",
+        "SO2"
+      ],
+      "respuesta_index": 2,
+      "explicacion": "CH4 se estudia como no polar por su simetría tetraedrica."
+    },
+    {
+      "id": 7,
+      "pregunta": "En una flecha de dipolo, la punta apunta hacia:",
+      "opciones": [
+        "Atomo menos electronegativo",
+        "Atomo más electronegativo",
+        "Centro geometrico",
+        "Carga positiva"
+      ],
+      "respuesta_index": 1,
+      "explicacion": "La punta marca el lado con mayor densidad electrónica."
+    },
+    {
+      "id": 8,
+      "pregunta": "Qué fuerza predomina entre moléculas no polares?",
+      "opciones": [
+        "Puente de hidrógeno",
+        "Interionica",
+        "Dispersión",
+        "Metalica"
+      ],
+      "respuesta_index": 2,
+      "explicacion": "Para moléculas no polares, predominan las fuerzas de dispersión."
+    },
+    {
+      "id": 9,
+      "pregunta": "10 g de soluto en 100 g de disolución corresponde a:",
+      "opciones": [
+        "1% m/m",
+        "5% m/m",
+        "10% m/m",
+        "20% m/m"
+      ],
+      "respuesta_index": 2,
+      "explicacion": "(10/100) x 100 = 10%."
+    },
+    {
+      "id": 10,
+      "pregunta": "Si una molécula tiene enlaces polares, pero su geometría los cancela, entonces es:",
+      "opciones": [
+        "Siempre polar",
+        "No polar",
+        "Ionica",
+        "Metalica"
+      ],
+      "respuesta_index": 1,
+      "explicacion": "La polaridad molecular depende de la suma vectorial de los dipolos."
+    },
+    {
+      "id": 11,
+      "pregunta": "Cuál fuerza predomina entre NaCl y H2O?",
+      "opciones": [
+        "Dipolo-dipolo",
+        "Ion-dipolo",
+        "Dispersión",
+        "Puente de hidrógeno"
+      ],
+      "respuesta_index": 1,
+      "explicacion": "Un ion y una molécula polar se atraen por ion-dipolo."
+    },
+    {
+      "id": 12,
+      "pregunta": "8 g de soluto en 40 g de disolución equivalen a:",
+      "opciones": [
+        "5% m/m",
+        "10% m/m",
+        "20% m/m",
+        "40% m/m"
+      ],
+      "respuesta_index": 2,
+      "explicacion": "(8/40) x 100 = 20%."
+    },
+    {
+      "id": 13,
+      "pregunta": "Si 20 mL de alcohol se mezclan en 100 mL de solucion, el porcentaje v/v es:",
+      "opciones": [
+        "2% v/v",
+        "10% v/v",
+        "20% v/v",
+        "40% v/v"
+      ],
+      "respuesta_index": 2,
+      "explicacion": "(20/100) x 100 = 20%."
+    },
+    {
+      "id": 14,
+      "pregunta": "HCl con H2O se parece más a:",
+      "opciones": [
+        "Dispersión",
+        "Dipolo-dipolo",
+        "Ion-dipolo",
+        "Metalica"
+      ],
+      "respuesta_index": 1,
+      "explicacion": "Las dos sustancias son polares, por eso la fuerza principal es dipolo-dipolo."
+    },
+    {
+      "id": 15,
+      "pregunta": "Qué par seguramente no se mezcla bien?",
+      "opciones": [
+        "H2O y KI",
+        "CH4 y O2",
+        "H2O y CH4",
+        "NH3 y H2O"
+      ],
+      "respuesta_index": 2,
+      "explicacion": "Una sustancia polar y otra no polar normalmente no se mezclan bien.",
+      "pasos": [
+        "Paso 1: Analiza la polaridad de cada pareja.",
+        "Paso 2: H2O es polar, KI es polar → si se mezclan bien.",
+        "Paso 3: CH4 es no polar, O2 es no polar → ambas no polares se mezclan.",
+        "Paso 4: H2O es polar, CH4 es no polar → polaridades diferentes, no se mezclan."
+      ]
+    },
+    {
+      "id": 16,
+      "pregunta": "Si tienes 50 mL de soluto y agregas 200 mL de solvente, el volumen de disolución es:",
+      "opciones": [
+        "200 mL",
+        "250 mL",
+        "225 mL",
+        "Depende del soluto"
+      ],
+      "respuesta_index": 1,
+      "explicacion": "En una disolución ideal, el volumen es aproximadamente la suma de volúmenes.",
+      "pasos": [
+        "Paso 1: Identifica soluto (lo disuelto) y solvente (lo que disuelve).",
+        "Paso 2: Volumen de soluto = 50 mL, volumen de solvente = 200 mL.",
+        "Paso 3: Para una disolución, Vdisolucion ≈ Vsoluto + Vsolvente.",
+        "Paso 4: Vdisolucion = 50 + 200 = 250 mL."
+      ]
+    },
+    {
+      "id": 17,
+      "pregunta": "Cuál de estas sustancias forma puentes de hidrógeno con el agua?",
+      "opciones": [
+        "CH4",
+        "O2",
+        "NH3",
+        "N2"
+      ],
+      "respuesta_index": 2,
+      "explicacion": "Los puentes de H ocurren cuando hay H unido a F, O o N, y eso solo pasa en NH3.",
+      "pasos": [
+        "Paso 1: El puente de H aparece cuando H esta unido a F, O o N.",
+        "Paso 2: CH4 no tiene H-O, H-F o H-N, solo C-H.",
+        "Paso 3: O2 y N2 no tienen H en absoluto.",
+        "Paso 4: NH3 tiene H unido a N, forma puentes con H2O que tambien tiene H-O."
+      ]
+    },
+    {
+      "id": 18,
+      "pregunta": "100 g de disolución contiene 25 g de soluto. El porcentaje m/m es:",
+      "opciones": [
+        "20% m/m",
+        "25% m/m",
+        "33% m/m",
+        "75% m/m"
+      ],
+      "respuesta_index": 1,
+      "explicacion": "%m/m = (masa soluto / masa disolución) x 100.",
+      "pasos": [
+        "Paso 1: Recuerda la fórmula: %m/m = (g soluto / g disolución) × 100.",
+        "Paso 2: Identifica los datos: soluto = 25 g, disolución total = 100 g.",
+        "Paso 3: Sustituye: %m/m = (25 / 100) × 100 = 0.25 × 100.",
+        "Paso 4: Resultado = 25% m/m."
+      ]
+    },
+    {
+      "id": 19,
+      "pregunta": "¿Qué sucede con la intensidad de la fuerza intermolecular cuando aumenta la masa molar?",
+      "opciones": [
+        "Disminuye",
+        "Aumenta",
+        "No cambia",
+        "Depende del estado fisico"
+      ],
+      "respuesta_index": 1,
+      "explicacion": "Mayor masa molar generalmente significa mayor superficie de contacto y fuerzas de dispersión más intensas.",
+      "pasos": [
+        "Paso 1: Las fuerzas de dispersión estan ligadas a la cantidad de electrones y superficie de contacto.",
+        "Paso 2: Mayor masa molar suele significar moléculas más grandes.",
+        "Paso 3: Moléculas más grandes tienen más electrones y mayor superficie.",
+        "Paso 4: Mayor superficie = fuerzas de dispersión más intensas, especialmente en no polares."
+      ]
+    },
+    {
+      "id": 20,
+      "pregunta": "Si mezclas etanol (C2H5OH) con agua, ¿cuál es la fuerza intermolecular principal?",
+      "opciones": [
+        "Dipolo-dipolo",
+        "Puente de hidrógeno",
+        "Dispersión",
+        "Interionica"
+      ],
+      "respuesta_index": 1,
+      "explicacion": "Tanto etanol como agua tienen H-O, por lo que forman puentes de hidrógeno entre ellas.",
+      "pasos": [
+        "Paso 1: Etanol C2H5OH contiene el grupo -OH, con H unido a O.",
+        "Paso 2: Agua H2O tambien tiene H-O.",
+        "Paso 3: La regla: H unido a O, F o N forma puentes de hidrógeno.",
+        "Paso 4: Etanol y agua forman puentes H entre si, la fuerza más intensa."
+      ]
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": 11,
+      "pregunta": "AMA #3 a) H2O y KI: indique polaridad, si son solubles y la fuerza intermolecular.",
+      "fuente": "3 pagina cuaderno.jpeg - inciso a)",
+      "pasos": [
+        "H₂O se clasifica como Polar.",
+        "KI se clasifica como Polar.",
+        "Se concluye: Son solubles.",
+        "Fuerza: ion dipolo."
+      ],
+      "resultado": "H2O polar, KI polar, son solubles, fuerza ion dipolo.",
+      "explicacion_simple": "Dos especies polares se disuelven y se reporta interacción ion dipolo."
+    },
+    {
+      "id": 12,
+      "pregunta": "AMA #3 b) N2 y O2: indique polaridad, solubilidad y fuerza.",
+      "fuente": "3 pagina cuaderno.jpeg - inciso b)",
+      "pasos": [
+        "N₂ se clasifica como No Polar.",
+        "O₂ se clasifica como No Polar.",
+        "Se concluye: Son solubles.",
+        "Fuerza: Dispersión."
+      ],
+      "resultado": "N2 no polar, O2 no polar, son solubles, fuerza de dispersión.",
+      "explicacion_simple": "Ambos son no polares y la fuerza es dispersión."
+    },
+    {
+      "id": 13,
+      "pregunta": "AMA #3 c) CO2 y H2O: indique polaridad, solubilidad y fuerza.",
+      "fuente": "4 pagina cuaderno.jpeg - inciso c)",
+      "pasos": [
+        "CO₂ se clasifica como No Polar.",
+        "H₂O se clasifica como Polar.",
+        "Se concluye: No son solubles.",
+        "Fuerza: Dispersión."
+      ],
+      "resultado": "CO₂ no polar, H₂O polar, no son solubles, fuerza: dispersión.",
+      "explicacion_simple": "Polaridades opuestas resultan en no solubilidad y fuerza de dispersión."
+    },
+    {
+      "id": 14,
+      "pregunta": "AMA #3 d) Dioxido de azufre y CH3Cl: indique polaridad, solubilidad y fuerza.",
+      "fuente": "4 pagina cuaderno.jpeg - inciso d)",
+      "pasos": [
+        "SO₂ se clasifica como No polar.",
+        "CH₃Cl se clasifica como Polar.",
+        "Se concluye: No son solubles.",
+        "Fuerza: Dispersión."
+      ],
+      "resultado": "SO₂ no polar, CH₃Cl polar, no son solubles, fuerza: dispersión.",
+      "explicacion_simple": "Polaridades opuestas resultan en no solubilidad y fuerza de dispersión."
+    },
+    {
+      "id": 15,
+      "pregunta": "AMA #3 e) CH3CN y CCl4: indique polaridad, solubilidad y fuerza.",
+      "fuente": "4 pagina cuaderno.jpeg - inciso e)",
+      "pasos": [
+        "CH3CN aparece Polar.",
+        "CCl4 aparece No Polar.",
+        "Se anota: No son solubles.",
+        "Fuerza anotada: Dispersión."
+      ],
+      "resultado": "CH3CN polar, CCl4 no polar, no son solubles, dispersión.",
+      "explicacion_simple": "Polaridades opuestas resultan en no solubilidad con fuerza de dispersión."
+    },
+    {
+      "id": 16,
+      "pregunta": "Clasifica HCl, Cl₂ y CH₄ en polar o no polar.",
+      "fuente": "Ejercicio de practica",
+      "pasos": [
+        "HCl: átomos diferentes en molécula diatomica, se clasifica polar.",
+        "Cl2: átomos iguales, se clasifica no polar.",
+        "CH4: geometría simetrica, se clasifica no polar."
+      ],
+      "resultado": "HCl polar; Cl2 no polar; CH4 no polar.",
+      "explicacion_simple": "Compara electronegatividad y luego revisa si la forma de la molécula cancela dipolos."
+    },
+    {
+      "id": 17,
+      "pregunta": "Resuelve %m/m con 8 g de soluto en 40 g de disolución.",
+      "fuente": "Ejercicio de practica",
+      "pasos": [
+        "Usa % m/m = (masa de soluto / masa de disolución) x 100.",
+        "Sustituye: (8 / 40) x 100.",
+        "Calcula: 20%."
+      ],
+      "resultado": "20% m/m",
+      "explicacion_simple": "8 es la quinta parte de 40; una quinta parte de 100 es 20."
+    },
+    {
+      "id": 18,
+      "pregunta": "Determina si H2O y CH4 se mezclarian facilmente segun polaridad.",
+      "fuente": "Ejercicio de practica",
+      "pasos": [
+        "H2O se trabaja como polar.",
+        "CH4 se trabaja como no polar.",
+        "Regla de aula: polar con polar, no polar con no polar.",
+        "Conclusion: no se mezclan facilmente."
+      ],
+      "resultado": "No se espera mezcla fácil por diferencia de polaridad.",
+      "explicacion_simple": "Si una sustancia es polar y la otra no, normalmente cuesta que se disuelvan entre si."
+    }
+  ],
+  "validacion_final": [
+    {
+      "tema": "Polaridad de las moléculas",
+      "cubierto": true,
+      "nota": "Cubierto con definiciones, pasos, flecha de dipolo y ejemplos reales del cuaderno."
+    },
+    {
+      "tema": "Fuerzas interiónicas, intramoleculares e intermoleculares",
+      "cubierto": true,
+      "nota": "Cubierto con apuntes de cuaderno y texto parcial extraido de los PDF del libro."
+    },
+    {
+      "tema": "Disoluciones, propiedades coligativas y cálculos de concentración",
+      "cubierto": true,
+      "nota": "Tema listado en temas.jpeg y reforzado con practica adicional generada de concentraciones basicas (nivel clase)."
+    }
+  ]
+}
